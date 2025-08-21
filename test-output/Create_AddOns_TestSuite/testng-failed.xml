@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Create_AddOns_TestSuite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="author" value="Dipali"/>
+  <parameter name="userType" value="business"/>
+  <test thread-count="5" name="Add Add-Ons Without Tax(failed)" verbose="2">
+    <classes>
+      <class name="com.bookingzoneadmin.addADDONS.tests.TC001AddAddonsWithoutTax">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+          <include name="testAddAddonsWithoutTax"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.addADDONS.tests.TC001AddAddonsWithoutTax -->
+    </classes>
+  </test> <!-- Add Add-Ons Without Tax(failed) -->
+  <test thread-count="5" name="Add Add-Ons With Percentage Tax(failed)" verbose="2">
+    <classes>
+      <class name="com.bookingzoneadmin.addADDONS.tests.TC002AddAddonsWithPerTax">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="setupTest"/>
+          <include name="testAddAddonsWithPerTax"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.addADDONS.tests.TC002AddAddonsWithPerTax -->
+    </classes>
+  </test> <!-- Add Add-Ons With Percentage Tax(failed) -->
+  <test thread-count="5" name="Add Add-Ons With Flat Tax(failed)" verbose="2">
+    <classes>
+      <class name="com.bookingzoneadmin.addADDONS.tests.TC003AddAddonsWithFlatTax">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="setupTest"/>
+          <include name="initializeTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="testAddAddonsWithFlatTax"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.addADDONS.tests.TC003AddAddonsWithFlatTax -->
+    </classes>
+  </test> <!-- Add Add-Ons With Flat Tax(failed) -->
+  <test thread-count="5" name="Add Add-Ons With Both Tax(failed)" verbose="2">
+    <classes>
+      <class name="com.bookingzoneadmin.addADDONS.tests.TC004AddAddonsWithPerAndFlatTax">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="setupTest"/>
+          <include name="testAddAddonsWithPerAndFlatTax"/>
+          <include name="initializeTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.addADDONS.tests.TC004AddAddonsWithPerAndFlatTax -->
+    </classes>
+  </test> <!-- Add Add-Ons With Both Tax(failed) -->
+</suite> <!-- Failed suite [Create_AddOns_TestSuite] -->

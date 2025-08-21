@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Create_Plans_TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">Create_Plans_TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Create_Plans_TestSuite" class="navigator-link ">
+                    <span>D:\Automation Project\bookingzoneadmin\testng-suites\Create_Plans_TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Create_Plans_TestSuite" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Create_Plans_TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Create_Plans_TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Create_Plans_TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Create_Plans_TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Create_Plans_TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 7 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Create_Plans_TestSuite" class="hide-methods failed suite-Create_Plans_TestSuite"> (hide)</a> <!-- hide-methods failed suite-Create_Plans_TestSuite -->
+                      <a href="#" panel-name="suite-Create_Plans_TestSuite" class="show-methods failed suite-Create_Plans_TestSuite"> (show)</a> <!-- show-methods failed suite-Create_Plans_TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-Create_Plans_TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan" class="method navigator-link" hash-for-method="testCreateEnableSessionPlan">testCreateEnableSessionPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan" class="method navigator-link" hash-for-method="testCreatePackageSessionPlan">testCreatePackageSessionPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan" class="method navigator-link" hash-for-method="testCreatePackageTimePlan">testCreatePackageTimePlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan" class="method navigator-link" hash-for-method="testCreatePerEventPlan">testCreatePerEventPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan" class="method navigator-link" hash-for-method="testCreatePerHourPlan">testCreatePerHourPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan" class="method navigator-link" hash-for-method="testCreatePerHourSlotPlan">testCreatePerHourSlotPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Create_Plans_TestSuite" title="com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan" class="method navigator-link" hash-for-method="testCreatePerPersonPlan">testCreatePerPersonPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Create_Plans_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Create_Plans_TestSuite" class="panel Create_Plans_TestSuite">
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateEnableSessionPlan">
+                  </a> <!-- testCreateEnableSessionPlan -->
+                  <span class="method-name">testCreateEnableSessionPlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan.handleException(TC003_CreateEnableSessionPlan.java:218)
+	at com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan.testCreateEnableSessionPlan(TC003_CreateEnableSessionPlan.java:155)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePerHourPlan">
+                  </a> <!-- testCreatePerHourPlan -->
+                  <span class="method-name">testCreatePerHourPlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan.handleException(TC005_CreatePerHourPlan.java:224)
+	at com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan.testCreatePerHourPlan(TC005_CreatePerHourPlan.java:148)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePerPersonPlan">
+                  </a> <!-- testCreatePerPersonPlan -->
+                  <span class="method-name">testCreatePerPersonPlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan.handleException(TC007_CreatePerPersonPlan.java:216)
+	at com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan.testCreatePerPersonPlan(TC007_CreatePerPersonPlan.java:145)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePackageTimePlan">
+                  </a> <!-- testCreatePackageTimePlan -->
+                  <span class="method-name">testCreatePackageTimePlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan.handleException(TC002_CreatePackageTimePlan.java:247)
+	at com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan.testCreatePackageTimePlan(TC002_CreatePackageTimePlan.java:174)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePackageSessionPlan">
+                  </a> <!-- testCreatePackageSessionPlan -->
+                  <span class="method-name">testCreatePackageSessionPlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan.handleException(TC001_CreatePackageSessionPlan.java:243)
+	at com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan.testCreatePackageSessionPlan(TC001_CreatePackageSessionPlan.java:175)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePerHourSlotPlan">
+                  </a> <!-- testCreatePerHourSlotPlan -->
+                  <span class="method-name">testCreatePerHourSlotPlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan.handleException(TC006_CreatePerHourSlotPlan.java:215)
+	at com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan.testCreatePerHourSlotPlan(TC006_CreatePerHourSlotPlan.java:143)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+          <div class="suite-Create_Plans_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreatePerEventPlan">
+                  </a> <!-- testCreatePerEventPlan -->
+                  <span class="method-name">testCreatePerEventPlan</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //select[@name=&apos;schedules.0.venueDetail.0.serviceCategory&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan.handleException(TC004_CreatePerEventPlan.java:224)
+	at com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan.testCreatePerEventPlan(TC004_CreatePerEventPlan.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Create_Plans_TestSuite-class-failed -->
+        </div> <!-- panel Create_Plans_TestSuite -->
+        <div panel-name="test-xml-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation Project\bookingzoneadmin\testng-suites\Create_Plans_TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Create_Plans_TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;author&quot; value=&quot;Dipali&quot;/&gt;
+  &lt;parameter name=&quot;userType&quot; value=&quot;business&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Package Session Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Package Session Plan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Package Time Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Package Time Plan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Enable Session Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Enable Session Plan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Per Event Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Per Event Plan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Per Hour Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Per Hour Plan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Per Hour Slot Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Per Hour Slot Plan --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Per Person Plan&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Per Person Plan --&gt;
+&lt;/suite&gt; &lt;!-- Create_Plans_TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Create_Plans_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create Package Session Plan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Package Time Plan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Enable Session Plan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Per Event Plan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Per Hour Plan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Per Hour Slot Plan (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Per Person Plan (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Create_Plans_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Create_Plans_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Create_Plans_TestSuite');
+function tableData_Create_Plans_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreatePackageSessionPlan')
+data.setCell(0, 2, 'com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan')
+data.setCell(0, 3, 80002);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreatePackageTimePlan')
+data.setCell(1, 2, 'com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan')
+data.setCell(1, 3, 58071);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreateEnableSessionPlan')
+data.setCell(2, 2, 'com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan')
+data.setCell(2, 3, 55503);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreatePerEventPlan')
+data.setCell(3, 2, 'com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan')
+data.setCell(3, 3, 54911);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreatePerHourSlotPlan')
+data.setCell(4, 2, 'com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan')
+data.setCell(4, 3, 54751);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreatePerHourPlan')
+data.setCell(5, 2, 'com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan')
+data.setCell(5, 3, 54681);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCreatePerPersonPlan')
+data.setCell(6, 2, 'com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan')
+data.setCell(6, 3, 54547);
+window.suiteTableData['Create_Plans_TestSuite']= { tableData: data, tableDiv: 'times-div-Create_Plans_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Create_Plans_TestSuite">
+              </div> <!-- times-div-Create_Plans_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Create_Plans_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Create_Plans_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initialiseBrowser(org.testng.TestRunner@c040c8d)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@3453f79c)</span>
+                <span class="method-start">8950 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan.testCreatePackageS...)</span>
+                <span class="method-start">13851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreatePackageSessionPlan</span>
+                <span class="method-start">13853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreatePackageSessionPlan status=FAILURE method=TC001_CreatePackageSessionPlan.t...)</span>
+                <span class="method-start">93864 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@6f627a1a)</span>
+                <span class="method-start">94171 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan.testCreatePackageTime...)</span>
+                <span class="method-start">96875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreatePackageTimePlan</span>
+                <span class="method-start">96880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreatePackageTimePlan status=FAILURE method=TC002_CreatePackageTimePlan.testCre...)</span>
+                <span class="method-start">154953 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@655b9169)</span>
+                <span class="method-start">155183 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan.testCreateEnableSes...)</span>
+                <span class="method-start">157015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateEnableSessionPlan</span>
+                <span class="method-start">157016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreateEnableSessionPlan status=FAILURE method=TC003_CreateEnableSessionPlan.tes...)</span>
+                <span class="method-start">212521 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@4917992b)</span>
+                <span class="method-start">212765 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan.testCreatePerEventPlan()...)</span>
+                <span class="method-start">214281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreatePerEventPlan</span>
+                <span class="method-start">214289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreatePerEventPlan status=FAILURE method=TC004_CreatePerEventPlan.testCreatePer...)</span>
+                <span class="method-start">269202 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@62536882)</span>
+                <span class="method-start">269426 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan.testCreatePerHourPlan() t...)</span>
+                <span class="method-start">270672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreatePerHourPlan</span>
+                <span class="method-start">270673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreatePerHourPlan status=FAILURE method=TC005_CreatePerHourPlan.testCreatePerHo...)</span>
+                <span class="method-start">325356 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@1e9d6c78)</span>
+                <span class="method-start">325589 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan.testCreatePerHourSlot...)</span>
+                <span class="method-start">326859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreatePerHourSlotPlan</span>
+                <span class="method-start">326861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreatePerHourSlotPlan status=FAILURE method=TC006_CreatePerHourSlotPlan.testCre...)</span>
+                <span class="method-start">381614 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTest(org.testng.TestRunner@c040c8d)</span>
+                <span class="method-start">381806 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest(public void com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan.testCreatePerPersonPlan...)</span>
+                <span class="method-start">382917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreatePerPersonPlan</span>
+                <span class="method-start">382918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatusAndCaptureScreenshot([TestResult name=testCreatePerPersonPlan status=FAILURE method=TC007_CreatePerPersonPlan.testCreateP...)</span>
+                <span class="method-start">437466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardownSuite</span>
+                <span class="method-start">437647 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

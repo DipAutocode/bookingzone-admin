@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-13T09:06:00 GMT-04:00" name="Create_Plans_TestSuite" finished-at="2025-04-13T09:13:09 GMT-04:00" duration-ms="428714">
+    <groups>
+    </groups>
+    <test started-at="2025-04-13T09:06:00 GMT-04:00" name="Create Package Session Plan" finished-at="2025-04-13T09:07:25 GMT-04:00" duration-ms="85194">
+      <class name="com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan@674bd420]" started-at="2025-04-13T09:06:00 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:06:05 GMT-04:00" duration-ms="4886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3453f79c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan@674bd420]" started-at="2025-04-13T09:06:05 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:06:05 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan.testCreatePackageSessionPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePackageSessionPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan@674bd420]" started-at="2025-04-13T09:06:05 GMT-04:00" name="testCreatePackageSessionPlan" finished-at="2025-04-13T09:07:25 GMT-04:00" duration-ms="80002" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan.handleException(TC001_CreatePackageSessionPlan.java:243)
+at com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan.testCreatePackageSessionPlan(TC001_CreatePackageSessionPlan.java:175)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePackageSessionPlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan@674bd420]" started-at="2025-04-13T09:07:25 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:07:25 GMT-04:00" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePackageSessionPlan status=FAILURE method=TC001_CreatePackageSessionPlan.testCreatePackageSessionPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan@674bd420] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan -->
+    </test> <!-- Create Package Session Plan -->
+    <test started-at="2025-04-13T09:07:25 GMT-04:00" name="Create Package Time Plan" finished-at="2025-04-13T09:08:26 GMT-04:00" duration-ms="60987">
+      <class name="com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan@3724af13]" started-at="2025-04-13T09:07:25 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:07:28 GMT-04:00" duration-ms="2701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f627a1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan@3724af13]" started-at="2025-04-13T09:07:28 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:07:28 GMT-04:00" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan.testCreatePackageTimePlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePackageTimePlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan@3724af13]" started-at="2025-04-13T09:07:28 GMT-04:00" name="testCreatePackageTimePlan" finished-at="2025-04-13T09:08:26 GMT-04:00" duration-ms="58071" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan.handleException(TC002_CreatePackageTimePlan.java:247)
+at com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan.testCreatePackageTimePlan(TC002_CreatePackageTimePlan.java:174)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePackageTimePlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan@3724af13]" started-at="2025-04-13T09:08:26 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:08:26 GMT-04:00" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePackageTimePlan status=FAILURE method=TC002_CreatePackageTimePlan.testCreatePackageTimePlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan@3724af13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan -->
+    </test> <!-- Create Package Time Plan -->
+    <test started-at="2025-04-13T09:08:26 GMT-04:00" name="Create Enable Session Plan" finished-at="2025-04-13T09:09:24 GMT-04:00" duration-ms="57561">
+      <class name="com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan@340da44c]" started-at="2025-04-13T09:08:26 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:08:28 GMT-04:00" duration-ms="1831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@655b9169]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan@340da44c]" started-at="2025-04-13T09:08:28 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:08:28 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan.testCreateEnableSessionPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreateEnableSessionPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan@340da44c]" started-at="2025-04-13T09:08:28 GMT-04:00" name="testCreateEnableSessionPlan" finished-at="2025-04-13T09:09:23 GMT-04:00" duration-ms="55503" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan.handleException(TC003_CreateEnableSessionPlan.java:218)
+at com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan.testCreateEnableSessionPlan(TC003_CreateEnableSessionPlan.java:155)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateEnableSessionPlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan@340da44c]" started-at="2025-04-13T09:09:23 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:09:24 GMT-04:00" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateEnableSessionPlan status=FAILURE method=TC003_CreateEnableSessionPlan.testCreateEnableSessionPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan@340da44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan -->
+    </test> <!-- Create Enable Session Plan -->
+    <test started-at="2025-04-13T09:09:24 GMT-04:00" name="Create Per Event Plan" finished-at="2025-04-13T09:10:20 GMT-04:00" duration-ms="56641">
+      <class name="com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan@53f0a4cb]" started-at="2025-04-13T09:09:24 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:09:25 GMT-04:00" duration-ms="1514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4917992b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan@53f0a4cb]" started-at="2025-04-13T09:09:25 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:09:25 GMT-04:00" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan.testCreatePerEventPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePerEventPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan@53f0a4cb]" started-at="2025-04-13T09:09:25 GMT-04:00" name="testCreatePerEventPlan" finished-at="2025-04-13T09:10:20 GMT-04:00" duration-ms="54911" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan.handleException(TC004_CreatePerEventPlan.java:224)
+at com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan.testCreatePerEventPlan(TC004_CreatePerEventPlan.java:144)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePerEventPlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan@53f0a4cb]" started-at="2025-04-13T09:10:20 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:10:20 GMT-04:00" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePerEventPlan status=FAILURE method=TC004_CreatePerEventPlan.testCreatePerEventPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan@53f0a4cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan -->
+    </test> <!-- Create Per Event Plan -->
+    <test started-at="2025-04-13T09:10:20 GMT-04:00" name="Create Per Hour Plan" finished-at="2025-04-13T09:11:17 GMT-04:00" duration-ms="56141">
+      <class name="com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan@7e5d9a50]" started-at="2025-04-13T09:10:20 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:10:22 GMT-04:00" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62536882]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan@7e5d9a50]" started-at="2025-04-13T09:10:22 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:10:22 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan.testCreatePerHourPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePerHourPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan@7e5d9a50]" started-at="2025-04-13T09:10:22 GMT-04:00" name="testCreatePerHourPlan" finished-at="2025-04-13T09:11:16 GMT-04:00" duration-ms="54681" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan.handleException(TC005_CreatePerHourPlan.java:224)
+at com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan.testCreatePerHourPlan(TC005_CreatePerHourPlan.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePerHourPlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan@7e5d9a50]" started-at="2025-04-13T09:11:16 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:11:17 GMT-04:00" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePerHourPlan status=FAILURE method=TC005_CreatePerHourPlan.testCreatePerHourPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan@7e5d9a50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan -->
+    </test> <!-- Create Per Hour Plan -->
+    <test started-at="2025-04-13T09:11:17 GMT-04:00" name="Create Per Hour Slot Plan" finished-at="2025-04-13T09:12:13 GMT-04:00" duration-ms="56196">
+      <class name="com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan@2dd29a59]" started-at="2025-04-13T09:11:17 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:11:18 GMT-04:00" duration-ms="1269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e9d6c78]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan@2dd29a59]" started-at="2025-04-13T09:11:18 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:11:18 GMT-04:00" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan.testCreatePerHourSlotPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePerHourSlotPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan@2dd29a59]" started-at="2025-04-13T09:11:18 GMT-04:00" name="testCreatePerHourSlotPlan" finished-at="2025-04-13T09:12:13 GMT-04:00" duration-ms="54751" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan.handleException(TC006_CreatePerHourSlotPlan.java:215)
+at com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan.testCreatePerHourSlotPlan(TC006_CreatePerHourSlotPlan.java:143)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePerHourSlotPlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan@2dd29a59]" started-at="2025-04-13T09:12:13 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:12:13 GMT-04:00" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePerHourSlotPlan status=FAILURE method=TC006_CreatePerHourSlotPlan.testCreatePerHourSlotPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan@2dd29a59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan -->
+    </test> <!-- Create Per Hour Slot Plan -->
+    <test started-at="2025-04-13T09:12:13 GMT-04:00" name="Create Per Person Plan" finished-at="2025-04-13T09:13:09 GMT-04:00" duration-ms="55823">
+      <class name="com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan">
+        <test-method is-config="true" signature="initialiseBrowser(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb]" started-at="2025-04-13T09:05:51 GMT-04:00" name="initialiseBrowser" finished-at="2025-04-13T09:06:00 GMT-04:00" duration-ms="8913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c040c8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb]" started-at="2025-04-13T09:12:13 GMT-04:00" name="initializeTest" finished-at="2025-04-13T09:12:14 GMT-04:00" duration-ms="1109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c040c8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb]" started-at="2025-04-13T09:12:14 GMT-04:00" name="setupTest" finished-at="2025-04-13T09:12:14 GMT-04:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan.testCreatePerPersonPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePerPersonPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb]" started-at="2025-04-13T09:12:14 GMT-04:00" name="testCreatePerPersonPlan" finished-at="2025-04-13T09:13:08 GMT-04:00" duration-ms="54547" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //select[@name='schedules.0.venueDetail.0.serviceCategory']' (tried for 30 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan.handleException(TC007_CreatePerPersonPlan.java:216)
+at com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan.testCreatePerPersonPlan(TC007_CreatePerPersonPlan.java:145)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePerPersonPlan -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb]" started-at="2025-04-13T09:13:08 GMT-04:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-04-13T09:13:09 GMT-04:00" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePerPersonPlan status=FAILURE method=TC007_CreatePerPersonPlan.testCreatePerPersonPlan()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+        <test-method is-config="true" signature="teardownSuite()[pri:0, instance:com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan@1253e7cb]" started-at="2025-04-13T09:13:09 GMT-04:00" name="teardownSuite" finished-at="2025-04-13T09:13:10 GMT-04:00" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan -->
+    </test> <!-- Create Per Person Plan -->
+  </suite> <!-- Create_Plans_TestSuite -->
+</testng-results>

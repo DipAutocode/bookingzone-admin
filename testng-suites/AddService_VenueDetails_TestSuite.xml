@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AddService_VenueDetails_TestSuite" parallel="false"
+	verbose="2">
+	<parameter name="author" value="Dipali" />
+	<parameter name="userType" value="business" />
+
+	<test name="Add Service Category" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createbussiness_outlets.tests.TC003AddServiceCategory" />
+		</classes>
+	</test>
+
+	<test name="Add Venue Details" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createbussiness_outlets.tests.TC004AddVenueDetails" />
+		</classes>
+	</test>
+
+
+</suite>

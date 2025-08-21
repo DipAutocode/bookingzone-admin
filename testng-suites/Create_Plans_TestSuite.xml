@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Create_Plans_TestSuite" parallel="false" verbose="2">
+	<parameter name="author" value="Dipali" />
+	<parameter name="userType" value="business" />
+
+	<test name="Create Package Session Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan" />
+		</classes>
+	</test>
+
+	<test name="Create Package Time Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan" />
+		</classes>
+	</test>
+
+	<test name="Create Enable Session Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan" />
+		</classes>
+	</test>
+
+	<test name="Create Per Event Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan" />
+		</classes>
+	</test>
+
+	<test name="Create Per Hour Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan" />
+		</classes>
+	</test>
+
+	<test name="Create Per Hour Slot Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan" />
+		</classes>
+	</test>
+
+	<test name="Create Per Person Plan" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan" />
+		</classes>
+	</test>
+
+
+</suite>
+
+
+
+

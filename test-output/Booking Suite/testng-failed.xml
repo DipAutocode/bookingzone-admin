@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Booking Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <parameter name="author" value="Dipali"/>
+  <parameter name="userType" value="business"/>
+  <test thread-count="5" name="Full Other Payment(failed)" verbose="3">
+    <classes>
+      <class name="com.bookingzoneadmin.FullPayment.TC003FullOtherPayment">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="testCreateBookingWithOtherPayment"/>
+          <include name="tearDownClass"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.FullPayment.TC003FullOtherPayment -->
+      <class name="com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="tearDownClass"/>
+          <include name="testVerifyPaymentMethod_PaidAmountInTrasactionHistory"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+          <include name="testChangeReservationSlot"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking -->
+    </classes>
+  </test> <!-- Full Other Payment(failed) -->
+</suite> <!-- Failed suite [Booking Suite] -->

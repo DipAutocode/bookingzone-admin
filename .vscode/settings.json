@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "github.gitAuthentication": true,
+    "git.terminalAuthentication": true
+}

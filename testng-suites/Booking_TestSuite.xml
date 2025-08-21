@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking Suite" parallel="false" verbose="3">
+	<parameter name="author" value="Dipali" />
+	<parameter name="userType" value="business" />
+
+	<test name="Full Card Payment" enabled="false">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC001FullCardPayment" />
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC001_EditFullCardPayBooking" />
+		</classes>
+	</test>
+
+	<test name="Full Cash Payment" enabled="false">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC002FullCashPayment" />
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC002EditFullCashPayBooking" />
+		</classes>
+	</test>
+	
+	<test name="Full Other Payment" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC003FullOtherPayment" />
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking" />
+		</classes>
+	</test>
+	
+	<test name="Full Email Payment" enabled="false">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC004FullEmailPayment" />
+				<class
+				name="com.bookingzoneadmin.FullPayment.TC004_EditFullEmailPayBooking" />
+		</classes>
+	</test>
+	
+	<test name="Full Payment With URL" enabled="false">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.FullPayment.TC005FullPayVia_PaymentURL" />
+				<class
+				name="com.bookingzoneadmin.FullPayment.TC005EditFullPayVia_PaymentURL" />
+				
+		</classes>
+	</test>
+	
+
+</suite>

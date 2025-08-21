@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration strict="true" status="WARN">
+
+
+-<Appenders>
+
+
+-<Appender fileName="D:\ALL_Files\Logs\BZ.log" name="File" type="File">
+
+<Layout type="PatternLayout" pattern="%d{dd:MM:yy HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+
+</Appender>
+
+
+-<Appender name="STDOUT" type="Console">
+
+<Layout type="PatternLayout" pattern="%d{dd:MM:yy HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+
+</Appender>
+
+</Appenders>
+
+
+-<Loggers>
+
+
+-<Root level="info">
+
+<AppenderRef ref="File"/>
+
+</Root>
+
+</Loggers>
+
+
+
+</Configuration>

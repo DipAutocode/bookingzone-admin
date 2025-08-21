@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-21T00:36:38 GMT-05:00" name="Booking Suite" finished-at="2025-08-21T00:39:01 GMT-05:00" duration-ms="142329">
+    <groups>
+    </groups>
+    <test started-at="2025-08-21T00:36:38 GMT-05:00" name="Full Other Payment" finished-at="2025-08-21T00:39:01 GMT-05:00" duration-ms="142329">
+      <class name="com.bookingzoneadmin.FullPayment.TC003FullOtherPayment">
+        <test-method is-config="true" signature="initialiseBrowser(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:36:30 GMT-05:00" name="initialiseBrowser" finished-at="2025-08-21T00:36:38 GMT-05:00" duration-ms="8139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3245efdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:36:38 GMT-05:00" name="initializeTest" finished-at="2025-08-21T00:36:39 GMT-05:00" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3245efdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:36:39 GMT-05:00" name="setupTest" finished-at="2025-08-21T00:36:39 GMT-05:00" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.FullPayment.TC003FullOtherPayment.testCreateBookingWithOtherPayment() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreateBookingWithOtherPayment()[pri:1, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:36:39 GMT-05:00" name="testCreateBookingWithOtherPayment" finished-at="2025-08-21T00:37:47 GMT-05:00" duration-ms="68491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithOtherPayment -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:37:47 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-08-21T00:37:47 GMT-05:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBookingWithOtherPayment status=SUCCESS method=TC003FullOtherPayment.testCreateBookingWithOtherPayment()[pri:1, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:37:47 GMT-05:00" name="tearDownClass" finished-at="2025-08-21T00:37:47 GMT-05:00" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="teardownSuite()[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003FullOtherPayment@770d4269]" started-at="2025-08-21T00:39:01 GMT-05:00" name="teardownSuite" finished-at="2025-08-21T00:39:01 GMT-05:00" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- com.bookingzoneadmin.FullPayment.TC003FullOtherPayment -->
+      <class name="com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:37:47 GMT-05:00" name="initializeTest" finished-at="2025-08-21T00:37:48 GMT-05:00" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3245efdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:37:48 GMT-05:00" name="setupTest" finished-at="2025-08-21T00:37:48 GMT-05:00" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking.testChangeBookingStatusToDone() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testChangeBookingStatusToDone()[pri:2, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:37:48 GMT-05:00" name="testChangeBookingStatusToDone" finished-at="2025-08-21T00:38:00 GMT-05:00" depends-on-methods="com.bookingzoneadmin.FullPayment.TC003FullOtherPayment.testCreateBookingWithOtherPayment" duration-ms="12326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBookingStatusToDone -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:00 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-08-21T00:38:00 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeBookingStatusToDone status=SUCCESS method=TC003EditFullOtherPayBooking.testChangeBookingStatusToDone()[pri:2, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:00 GMT-05:00" name="setupTest" finished-at="2025-08-21T00:38:00 GMT-05:00" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking.testChangeReservationSlot() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testChangeReservationSlot()[pri:3, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:00 GMT-05:00" name="testChangeReservationSlot" finished-at="2025-08-21T00:38:43 GMT-05:00" depends-on-methods="com.bookingzoneadmin.FullPayment.TC003FullOtherPayment.testCreateBookingWithOtherPayment" duration-ms="43361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeReservationSlot -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:43 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-08-21T00:38:43 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeReservationSlot status=SUCCESS method=TC003EditFullOtherPayBooking.testChangeReservationSlot()[pri:3, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:43 GMT-05:00" name="setupTest" finished-at="2025-08-21T00:38:43 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking.testVerifyPaymentMethod_PaidAmountInTrasactionHistory() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyPaymentMethod_PaidAmountInTrasactionHistory()[pri:4, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:43 GMT-05:00" name="testVerifyPaymentMethod_PaidAmountInTrasactionHistory" finished-at="2025-08-21T00:38:56 GMT-05:00" depends-on-methods="com.bookingzoneadmin.FullPayment.TC003FullOtherPayment.testCreateBookingWithOtherPayment" duration-ms="12731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyPaymentMethod_PaidAmountInTrasactionHistory -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:56 GMT-05:00" name="tearDownClass" finished-at="2025-08-21T00:39:01 GMT-05:00" duration-ms="4393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484]" started-at="2025-08-21T00:38:56 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2025-08-21T00:38:56 GMT-05:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyPaymentMethod_PaidAmountInTrasactionHistory status=SUCCESS method=TC003EditFullOtherPayBooking.testVerifyPaymentMethod_PaidAmountInTrasactionHistory()[pri:4, instance:com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking@7cbee484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzoneadmin.FullPayment.TC003EditFullOtherPayBooking -->
+    </test> <!-- Full Other Payment -->
+  </suite> <!-- Booking Suite -->
+</testng-results>

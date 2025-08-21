@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Business_Outlet_TestSuite" parallel="false"
+	verbose="2">
+	<parameter name="author" value="Dipali" />
+	<parameter name="userType" value="admin" />
+
+	<test name="Create Business" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createbussiness_outlets.tests.TC001CreateBussiness" />
+		</classes>
+	</test>
+
+	<test name="Create Outlet" enabled="true">
+		<classes>
+			<class
+				name="com.bookingzoneadmin.createbussiness_outlets.tests.TC002OutletCreation" />
+		</classes>
+	</test>
+
+
+</suite>

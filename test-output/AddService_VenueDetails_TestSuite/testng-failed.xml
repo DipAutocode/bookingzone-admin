@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddService_VenueDetails_TestSuite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="author" value="Dipali"/>
+  <parameter name="userType" value="business"/>
+  <test thread-count="5" name="Add Service Category(failed)" verbose="2">
+    <classes>
+      <class name="com.bookingzoneadmin.createbussiness_outlets.tests.TC003AddServiceCategory">
+        <methods>
+          <include name="initializeTest"/>
+          <include name="initialiseBrowser"/>
+          <include name="testAddServiceCategory"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createbussiness_outlets.tests.TC003AddServiceCategory -->
+    </classes>
+  </test> <!-- Add Service Category(failed) -->
+  <test thread-count="5" name="Add Venue Details(failed)" verbose="2">
+    <classes>
+      <class name="com.bookingzoneadmin.createbussiness_outlets.tests.TC004AddVenueDetails">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="testAddVenueDetails"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createbussiness_outlets.tests.TC004AddVenueDetails -->
+    </classes>
+  </test> <!-- Add Venue Details(failed) -->
+</suite> <!-- Failed suite [AddService_VenueDetails_TestSuite] -->

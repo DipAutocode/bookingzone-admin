@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Create_Plans_TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="author" value="Dipali"/>
+  <parameter name="userType" value="business"/>
+  <test thread-count="5" name="Create Package Session Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="testCreatePackageSessionPlan"/>
+          <include name="setupTest"/>
+          <include name="initializeTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC001_CreatePackageSessionPlan -->
+    </classes>
+  </test> <!-- Create Package Session Plan(failed) -->
+  <test thread-count="5" name="Create Package Time Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="testCreatePackageTimePlan"/>
+          <include name="initializeTest"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC002_CreatePackageTimePlan -->
+    </classes>
+  </test> <!-- Create Package Time Plan(failed) -->
+  <test thread-count="5" name="Create Enable Session Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+          <include name="testCreateEnableSessionPlan"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC003_CreateEnableSessionPlan -->
+    </classes>
+  </test> <!-- Create Enable Session Plan(failed) -->
+  <test thread-count="5" name="Create Per Event Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="testCreatePerEventPlan"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="initializeTest"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC004_CreatePerEventPlan -->
+    </classes>
+  </test> <!-- Create Per Event Plan(failed) -->
+  <test thread-count="5" name="Create Per Hour Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="testCreatePerHourPlan"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC005_CreatePerHourPlan -->
+    </classes>
+  </test> <!-- Create Per Hour Plan(failed) -->
+  <test thread-count="5" name="Create Per Hour Slot Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="setupTest"/>
+          <include name="testCreatePerHourSlotPlan"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC006_CreatePerHourSlotPlan -->
+    </classes>
+  </test> <!-- Create Per Hour Slot Plan(failed) -->
+  <test thread-count="5" name="Create Per Person Plan(failed)" verbose="0">
+    <classes>
+      <class name="com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="testCreatePerPersonPlan"/>
+          <include name="setupTest"/>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+        </methods>
+      </class> <!-- com.bookingzoneadmin.createplans.tests.TC007_CreatePerPersonPlan -->
+    </classes>
+  </test> <!-- Create Per Person Plan(failed) -->
+</suite> <!-- Failed suite [Create_Plans_TestSuite] -->
